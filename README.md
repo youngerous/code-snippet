@@ -1,7 +1,7 @@
 # code-snippet
 
 파이썬 조각 코드 모음 <br/>
-출처: [wikidocs](https://wikidocs.net/book/536)
+출처: [wikidocs](https://wikidocs.net/book/536), 기타 블로그
 
 
 ---
@@ -24,3 +24,7 @@
 
 ## 기타 snippet
 - [람다(lambda)](https://wikidocs.net/13970)
+
+## Thread & Multiprocessing
+- [Thread](https://niceman.tistory.com/138?category=940952)
+- [Multiprocessing](https://niceman.tistory.com/145?category=940952)
