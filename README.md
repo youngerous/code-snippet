@@ -23,7 +23,7 @@
 
 
 ## 기타 snippet
-- [람다(lambda)](https://wikidocs.net/13970)
+- [lambda, map, reduce, filter](https://wikidocs.net/64)
 
 ## Thread & Multiprocessing
 - [Thread](https://niceman.tistory.com/138?category=940952)
