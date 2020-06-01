@@ -23,3 +23,4 @@
 ## [4] 기타 snippet
 - [lambda, map, reduce, filter](https://wikidocs.net/64)
 - [Decorator](https://velog.io/@doondoony/Python-Decorator-101)
+- [문자열 내 숫자 올바르게 정렬하기](https://stackoverflow.com/questions/5967500/how-to-correctly-sort-a-string-with-a-number-inside)
