@@ -1,7 +1,7 @@
-# code-snippet
+# Code Snippet
 
 파이썬 조각 코드 모음 <br/>
-출처: [wikidocs](https://wikidocs.net/book/536), 기타 블로그
+출처: [wikidocs](https://wikidocs.net/book/536), Stackoverflow, 기타 블로그
 
 
 ## [1] File IO
@@ -24,3 +24,4 @@
 - [lambda, map, reduce, filter](https://wikidocs.net/64)
 - [Decorator](https://velog.io/@doondoony/Python-Decorator-101)
 - [문자열 내 숫자 올바르게 정렬하기](https://stackoverflow.com/questions/5967500/how-to-correctly-sort-a-string-with-a-number-inside)
+- [상위 경로의 파일 import하기](https://seongkyun.github.io/others/2019/04/29/python_import/)
