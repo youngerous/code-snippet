@@ -29,3 +29,14 @@
   ```python3
   import IPython; IPython.embed(); exit(1)
   ```
+- Argparser boolean type 지정
+  ```python3
+  def str2bool(v):
+        if v.lower() in ('yes', 'true', 't', 'y', '1'):
+            return True
+        elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+            return False
+        else:
+            raise argparse.ArgumentTypeError('Boolean value expected.')
+  # [Example] parser.add_argument('--option', default=True, type=str2bool)
+  ```
