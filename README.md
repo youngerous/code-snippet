@@ -23,6 +23,7 @@
 ## [4] 기타 snippet
 - [lambda, map, reduce, filter](https://wikidocs.net/64)
 - [Decorator](https://velog.io/@doondoony/Python-Decorator-101)
+- [Type Annotation](https://www.daleseo.com/python-typing/)
 - [문자열 내 숫자 올바르게 정렬하기](https://stackoverflow.com/questions/5967500/how-to-correctly-sort-a-string-with-a-number-inside)
 - [상위 경로의 파일 import하기](https://seongkyun.github.io/others/2019/04/29/python_import/)
 - 코드 파일 실행 중간에 IPython 실행하기
