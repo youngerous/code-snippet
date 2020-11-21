@@ -12,15 +12,18 @@
 - [파일, 디렉토리 다루기](https://wikidocs.net/3717)
 
 ## [2] Python Image Library (PIL)
+
 - [Font 다루기](https://wikidocs.net/12157)
 - [간단한 PIL 예제](https://wikidocs.net/3702)
 - [이미지 뒤집기](https://wikidocs.net/12205)
 
 ## [3] Thread & Multiprocessing
+
 - [Thread](https://niceman.tistory.com/138?category=940952)
 - [Multiprocessing](https://niceman.tistory.com/145?category=940952)
 
 ## [4] 기타 snippet
+
 - [lambda, map, reduce, filter](https://wikidocs.net/64)
 - [Decorator](https://velog.io/@doondoony/Python-Decorator-101)
 - [Generator](https://wikidocs.net/16069)
@@ -43,6 +46,10 @@
             raise argparse.ArgumentTypeError('Boolean value expected.')
   # [Example] parser.add_argument('--option', default=True, type=str2bool)
   ```
+  
+## [5] PyTorch
+
+- [pack_padded_sequence](https://simonjisu.github.io/nlp/2018/07/05/packedsequence.html)
   
 - PyTorch Seed 고정
   ```python3
