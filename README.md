@@ -66,3 +66,8 @@
     np.random.seed(seed)
     random.seed(seed)
   ```
+
+- Number of parameters
+  ```python3
+  num_params = sum(p.numel() for p in net.parameters() if p.requires_grad)
+  ```
