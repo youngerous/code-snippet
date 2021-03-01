@@ -74,6 +74,7 @@
   
 - Print formatted time
   ```python3
+  import time
   def check_time(start_time: float) -> str:
     sec = time.time() - start_time
     times = str(datetime.timedelta(seconds=sec)).split(".")
