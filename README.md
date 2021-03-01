@@ -71,3 +71,13 @@
   ```python3
   num_params = sum(p.numel() for p in net.parameters() if p.requires_grad)
   ```
+  
+- Print formatted time
+  ```python3
+  def check_time(start_time: float) -> str:
+    sec = time.time() - start_time
+    times = str(datetime.timedelta(seconds=sec)).split(".")
+    return times[0]
+  # start_time = time.time()
+  # total_time = check_time(start_time)
+  ```
