@@ -82,3 +82,17 @@
   # start_time = time.time()
   # total_time = check_time(start_time)
   ```
+  
+- Sync checkpoint parameter name 
+  ```python3
+  # original saved file with DataParallel
+  state_dict = torch.load('myfile.pth.tar')
+  # create new OrderedDict that does not contain `module.`
+  from collections import OrderedDict
+  new_state_dict = OrderedDict()
+  for k, v in state_dict.items():
+      name = k[7:] # remove `module.`
+      new_state_dict[name] = v
+  # load params
+  model.load_state_dict(new_state_dict)
+  ```
