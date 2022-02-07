@@ -47,6 +47,25 @@
   # [Example] parser.add_argument('--option', default=True, type=str2bool)
   ```
   
+ - Join list of lists
+    ```python3
+    import itertools
+    a = [['a','b'], ['c']]
+    print(list(itertools.chain.from_iterable(a)))
+    ```
+    
+- JSON load & save
+  ```python3
+  import json
+  # load
+  with open("./name.json", "r") as json_file:
+    data = json.load(json_file)
+    
+  # save with indent
+  with open("./name.json", "w") as json_file:
+    json.dump(your_json, json_file, indent=2)
+  ```
+  
 ## [5] PyTorch
 
 - [pack_padded_sequence](https://simonjisu.github.io/nlp/2018/07/05/packedsequence.html)
