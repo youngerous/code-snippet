@@ -37,6 +37,7 @@
   
 - Argparser boolean type 지정
   ```python3
+  # Diverse boolean form
   def str2bool(v):
         if v.lower() in ('yes', 'true', 't', 'y', '1'):
             return True
@@ -44,7 +45,10 @@
             return False
         else:
             raise argparse.ArgumentTypeError('Boolean value expected.')
-  # [Example] parser.add_argument('--option', default=True, type=str2bool)
+  parser.add_argument('--your_arg', default=True, type=str2bool)
+  
+  # Flagging form
+  parser.add_argument("--your_arg", action="store_true", default=False)
   ```
   
  - Join list of lists
@@ -54,6 +58,17 @@
     print(list(itertools.chain.from_iterable(a)))
     ```
     
+- Print formatted time
+  ```python3
+  import time
+  def check_time(start_time: float) -> str:
+    sec = time.time() - start_time
+    times = str(datetime.timedelta(seconds=sec)).split(".")
+    return times[0]
+  # start_time = time.time()
+  # total_time = check_time(start_time)
+  ```
+
 - JSON load & save
   ```python3
   import json
@@ -69,6 +84,7 @@
 ## [5] PyTorch
 
 - [pack_padded_sequence](https://simonjisu.github.io/nlp/2018/07/05/packedsequence.html)
+- [Simple lazy loading dataset](https://discuss.pytorch.org/t/loading-huge-data-functionality/346/3)
   
 - PyTorch Seed 고정
   ```python3
@@ -89,17 +105,6 @@
 - Number of parameters
   ```python3
   num_params = sum(p.numel() for p in net.parameters() if p.requires_grad)
-  ```
-  
-- Print formatted time
-  ```python3
-  import time
-  def check_time(start_time: float) -> str:
-    sec = time.time() - start_time
-    times = str(datetime.timedelta(seconds=sec)).split(".")
-    return times[0]
-  # start_time = time.time()
-  # total_time = check_time(start_time)
   ```
   
 - Sync checkpoint parameter name 
