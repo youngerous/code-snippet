@@ -80,7 +80,7 @@
     
   # save with indent
   with open("./name.json", "w") as json_file:
-      json.dump(your_json, json_file, indent=2)
+      json.dump(your_json, json_file, indent=4)
   ```
   
 ## 5. PyTorch
