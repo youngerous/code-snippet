@@ -76,11 +76,11 @@
   import json
   # load
   with open("./name.json", "r") as json_file:
-    data = json.load(json_file)
+      data = json.load(json_file)
     
   # save with indent
   with open("./name.json", "w") as json_file:
-    json.dump(your_json, json_file, indent=2)
+      json.dump(your_json, json_file, indent=2)
   ```
   
 ## 5. PyTorch
