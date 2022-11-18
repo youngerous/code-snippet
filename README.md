@@ -37,6 +37,11 @@
   import IPython; IPython.embed(); exit(1)
   ```
   
+- [nohup background run](https://joonyon.tistory.com/entry/%EC%89%BD%EA%B2%8C-%EC%84%A4%EB%AA%85%ED%95%9C-nohup-%EA%B3%BC-%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9%EB%B2%95)
+  ```sh
+  $ nohup ./my_shellscript.sh &
+  ```
+  
 - Argparser boolean type 지정
   ```python3
   # Diverse boolean form
