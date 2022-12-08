@@ -29,6 +29,7 @@
 - [Generator](https://wikidocs.net/16069)
 - [Type Annotation](https://www.daleseo.com/python-typing/)
 - [문자열 내 숫자 올바르게 정렬하기](https://stackoverflow.com/questions/5967500/how-to-correctly-sort-a-string-with-a-number-inside)
+- [Python String Template](https://appia.tistory.com/244)
 - [상위 경로의 파일 import하기](https://seongkyun.github.io/others/2019/04/29/python_import/)
 - [Python setup.py](https://data-newbie.tistory.com/770)
 - [YAML](https://rfriend.tistory.com/540)
