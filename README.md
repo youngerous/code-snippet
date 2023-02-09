@@ -45,12 +45,10 @@
   ```python3
   import IPython; IPython.embed(); exit(1)
   ```
-  
 - [nohup background run](https://joonyon.tistory.com/entry/%EC%89%BD%EA%B2%8C-%EC%84%A4%EB%AA%85%ED%95%9C-nohup-%EA%B3%BC-%EB%B0%B1%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9%EB%B2%95) (+ [kill process](https://velog.io/@jekim5418/Shell-Script-nohup%EC%9C%BC%EB%A1%9C-%EC%8B%A4%ED%96%89%ED%95%9C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EC%A2%85%EB%A3%8C))
   ```sh
   $ nohup ./my_shellscript.sh &
   ```
-  
 - Argparser boolean type
   ```python3
   # Diverse boolean form
@@ -66,14 +64,12 @@
   # Flagging form
   parser.add_argument("--your_arg", action="store_true", default=False)
   ```
-  
  - Join list of lists
     ```python3
     import itertools
     a = [['a','b'], ['c']]
     print(list(itertools.chain.from_iterable(a)))
     ```
-    
 - Print formatted time
   ```python3
   import time
@@ -89,7 +85,6 @@
 
 - [pack_padded_sequence](https://simonjisu.github.io/nlp/2018/07/05/packedsequence.html)
 - [Simple lazy loading dataset](https://discuss.pytorch.org/t/loading-huge-data-functionality/346/3)
-  
 - Fixing PyTorch seed
   ```python3
   import random
@@ -105,12 +100,10 @@
     np.random.seed(seed)
     random.seed(seed)
   ```
-
 - Number of parameters
   ```python3
   num_params = sum(p.numel() for p in net.parameters() if p.requires_grad)
   ```
-  
 - Sync checkpoint parameter name 
   ```python3
   # original saved file with DataParallel
