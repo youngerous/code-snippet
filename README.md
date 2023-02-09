@@ -1,39 +1,47 @@
 # Code Snippet
 
-파이썬 조각 코드 모음 <br/>
-출처: [wikidocs](https://wikidocs.net/book/536), Stackoverflow, 기타 블로그
-
-
 ## 1. File IO
 
-- [data를 pickle로 저장하기](https://wikidocs.net/8929)
-- [glob - 특정 파일만 출력하기](https://wikidocs.net/3746)
-- [절대경로, 상대경로, 현재경로](https://wikidocs.net/3716)
-- [파일, 디렉토리 다루기](https://wikidocs.net/3717)
+- [Saving data as pickle format](https://wikidocs.net/8929)
+- [Glob](https://wikidocs.net/3746)
+- [Path (absolute, relative, current)](https://wikidocs.net/3716)
+- [file & directory](https://wikidocs.net/3717)
+- [Importing files of parent directory](https://seongkyun.github.io/others/2019/04/29/python_import/)
+- [HDF5 format](https://wikidocs.net/24030)
+- JSON load & save
+  ```python3
+  import json
+  # load
+  with open("./name.json", "r") as json_file:
+      data = json.load(json_file)
+    
+  # save with indent
+  with open("./name.json", "w") as json_file:
+      json.dump(your_json, json_file, indent=4)
+  ```
 
 ## 2. Python Image Library (PIL)
 
-- [Font 다루기](https://wikidocs.net/12157)
-- [간단한 PIL 예제](https://wikidocs.net/3702)
-- [이미지 뒤집기](https://wikidocs.net/12205)
+- [Font](https://wikidocs.net/12157)
+- [Simple PIL example](https://wikidocs.net/3702)
+- [Flipping images](https://wikidocs.net/12205)
 
 ## 3. Thread & Multiprocessing
 
 - [Thread](https://niceman.tistory.com/138?category=940952)
 - [Multiprocessing](https://niceman.tistory.com/145?category=940952)
 
-## 4. 기타 snippet
+## 4. Etc.
 
 - [lambda, map, reduce, filter](https://wikidocs.net/64)
 - [Decorator](https://velog.io/@doondoony/Python-Decorator-101)
 - [Generator](https://wikidocs.net/16069)
 - [Type Annotation](https://www.daleseo.com/python-typing/)
-- [문자열 내 숫자 올바르게 정렬하기](https://stackoverflow.com/questions/5967500/how-to-correctly-sort-a-string-with-a-number-inside)
+- [Sorting numbers within string](https://stackoverflow.com/questions/5967500/how-to-correctly-sort-a-string-with-a-number-inside)
 - [Python String Template](https://appia.tistory.com/244)
-- [상위 경로의 파일 import하기](https://seongkyun.github.io/others/2019/04/29/python_import/)
 - [Python setup.py](https://data-newbie.tistory.com/770)
 - [YAML](https://rfriend.tistory.com/540)
-- 코드 파일 실행 중간에 IPython 실행하기
+- Launching IPython for debugging
   ```python3
   import IPython; IPython.embed(); exit(1)
   ```
@@ -43,7 +51,7 @@
   $ nohup ./my_shellscript.sh &
   ```
   
-- Argparser boolean type 지정
+- Argparser boolean type
   ```python3
   # Diverse boolean form
   def str2bool(v):
@@ -76,25 +84,13 @@
   # start_time = time.time()
   # total_time = check_time(start_time)
   ```
-
-- JSON load & save
-  ```python3
-  import json
-  # load
-  with open("./name.json", "r") as json_file:
-      data = json.load(json_file)
-    
-  # save with indent
-  with open("./name.json", "w") as json_file:
-      json.dump(your_json, json_file, indent=4)
-  ```
   
 ## 5. PyTorch
 
 - [pack_padded_sequence](https://simonjisu.github.io/nlp/2018/07/05/packedsequence.html)
 - [Simple lazy loading dataset](https://discuss.pytorch.org/t/loading-huge-data-functionality/346/3)
   
-- PyTorch Seed 고정
+- Fixing PyTorch seed
   ```python3
   import random
   import torch
