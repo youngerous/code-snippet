@@ -41,6 +41,7 @@
 - [Python String Template](https://appia.tistory.com/244)
 - [Python setup.py](https://data-newbie.tistory.com/770)
 - [YAML](https://rfriend.tistory.com/540)
+- [Makefile](https://velog.io/@woodstock1993/Makefile)
 - Launching IPython for debugging
   ```python3
   import IPython; IPython.embed(); exit(1)
