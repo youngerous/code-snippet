@@ -5,7 +5,7 @@
 - [Saving data as pickle format](https://wikidocs.net/8929)
 - [Glob](https://wikidocs.net/3746)
 - [Path (absolute, relative, current)](https://wikidocs.net/3716)
-- [file & directory](https://wikidocs.net/3717)
+- [File & directory](https://wikidocs.net/3717)
 - [Importing files of parent directory](https://seongkyun.github.io/others/2019/04/29/python_import/)
 - [HDF5 format](https://wikidocs.net/24030)
 - JSON load & save
@@ -42,6 +42,7 @@
 - [Python setup.py](https://data-newbie.tistory.com/770)
 - [YAML](https://rfriend.tistory.com/540)
 - [Makefile](https://velog.io/@woodstock1993/Makefile)
+- [Async](https://www.daleseo.com/python-asyncio/)
 - Launching IPython for debugging
   ```python3
   import IPython; IPython.embed(); exit(1)
