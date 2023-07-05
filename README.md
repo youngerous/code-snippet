@@ -39,7 +39,7 @@
 - [Type Annotation](https://www.daleseo.com/python-typing/)
 - [Sorting numbers within string](https://stackoverflow.com/questions/5967500/how-to-correctly-sort-a-string-with-a-number-inside)
 - [Python String Template](https://appia.tistory.com/244)
-- [Python setup.py](https://data-newbie.tistory.com/770)
+- Python setup.py [[1]](https://velog.io/@rhee519/python-project-packaging-setuptools) [[2]](https://data-newbie.tistory.com/770)
 - [YAML](https://rfriend.tistory.com/540)
 - [Makefile](https://velog.io/@woodstock1993/Makefile)
 - [Async](https://www.daleseo.com/python-asyncio/)
