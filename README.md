@@ -33,6 +33,7 @@
 
 ## 4. Etc.
 
+- [Git branch](https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html)
 - [lambda, map, reduce, filter](https://wikidocs.net/64)
 - [Decorator](https://velog.io/@doondoony/Python-Decorator-101)
 - [Generator](https://wikidocs.net/16069)
