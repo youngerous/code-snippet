@@ -19,6 +19,19 @@
   with open("./name.json", "w") as json_file:
       json.dump(your_json, json_file, indent=4)
   ```
+- JSONL load & save
+  ```python3
+  # load
+  import jsonlines
+  with jsonlines.open("file.jsonl") as f:
+      data = [line for line in f.iter()]
+
+  # save
+  import json
+  with open(save_pth, "a+", encoding="utf-8") as f:
+      json.dump(result, f, ensure_ascii=False)
+      f.write("\n")
+  ```
 
 ## 2. Python Image Library (PIL)
 
@@ -33,6 +46,7 @@
 
 ## 4. Etc.
 
+- [Regex](https://wikidocs.net/4308)
 - [Git branch](https://backlog.com/git-tutorial/kr/stepup/stepup1_1.html)
 - [lambda, map, reduce, filter](https://wikidocs.net/64)
 - [Decorator](https://velog.io/@doondoony/Python-Decorator-101)
